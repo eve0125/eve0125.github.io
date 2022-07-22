@@ -1,0 +1,186 @@
+@font-face {
+  src: url("assets/searchlight.otf");
+  font-family: searchlight;
+}
+
+/* STYLE SECTIONING TAGS */
+
+* { 
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+  text-align: center;
+}
+
+header {
+  text-align: center;
+  height: 60vh;
+  background-size: 100px;
+  background-image: url("assets/newprison.png");
+  background-attachment: fixed;
+  background-size: 200px;
+  padding-top: 40vh;
+  border-bottom: solid black 20px;
+  margin-bottom: 20px;
+}
+
+header div {
+  background-color: white;
+  border: double black 15px;
+  padding: 20px;
+  width: 75%;
+  max-width: 600px;
+  margin: auto;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+/* STYLE TEXT */
+
+h1 {
+  color: #8C2318;
+  font-family: searchlight, serif, times new roman;
+  letter-spacing: 10px;
+  font-style: bold;
+  line-height: 40px;
+  font-size: 40px;
+}
+
+h3 {
+  color: #8C2318;
+  font-family: searchlight, serif, times new roman;
+  font-style: italic;
+  font-size: 20px;
+}
+
+header h3#quote {
+  width: 50%;
+  max-width: 700px;
+  border-radius: 70px;
+  padding: 10px;
+  color: black; 
+  margin: auto;
+  line-height: 30px;
+}
+
+p {
+  width: 75%;
+  margin: auto;
+  max-width: 700px;
+  padding-top: 10px;
+  line-height: 30px;
+  text-indent: 40px;
+  text-align: left;
+  font-size: 16px;
+  font-family: serif, times new roman;
+}
+
+figcaption {
+  font-size: small;
+  font-style: italic;
+}
+
+strong {
+  color: #8C2318;
+  font-style: italic;
+}
+
+/* STYLE IMAGES */
+
+li.logo img {
+  width: 20px;
+  height: 20px;
+}
+
+li.logo {
+  background-color: white;
+  position: fixed;
+  left: 10px;
+  top: 5px;
+  border-radius: 200px;
+}
+
+ul li{
+  display: inline;
+  margin-right: 30px;
+  padding: 10px;
+}
+
+ul {
+  text-align: right;
+  margin-top: 20px;
+}
+
+ul.learn li{
+  display: list-item;
+  color: #8C2318;
+  font-size: 18px;
+}
+
+ul.learn {
+  text-align: left;
+  width: 75%;
+  max-width: 500px;
+  margin: auto;
+  list-style: square;
+  font-style: italic;
+}
+
+img.petition {
+  border: double black 10px;
+}
+
+img.petition:hover {
+  opacity: 0.6;
+  transition-duration: 0.4s;
+}
+
+/* STYLE NAV BAR */
+
+nav {
+  color: white;
+  background-color: black;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: 3;
+  height: 50px;
+}
+
+nav ul li a {
+  color: white;
+  font-family: searchlight, serif, times new roman;
+  text-decoration: none;
+}
+
+/* STYLE BUTTONS */
+
+button {
+  background-color: #8C2318;
+  width: 100px;
+  padding: 10px 0px;
+  color: white;
+  border: double white 5px;
+  border-radius: 70px;
+}
+
+button:hover {
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.24), 10px 8px 10px rgba(0,0,0,0.19);
+  transition-duration: 0.4s;
+}
+
+button#button:click {
+  h3# {
+    background-color: white;
+  }
+}
+
+/* ADD MORE! */
